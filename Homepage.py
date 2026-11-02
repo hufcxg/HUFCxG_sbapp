@@ -57,7 +57,7 @@ def _check_password() -> bool:
     st.markdown("<div style='height:18vh'></div>", unsafe_allow_html=True)
     col, _ = st.columns([2, 5])
     with col:
-        st.markdown('<div class="kicker"></div>', unsafe_allow_html=True)
+        st.markdown('<div class="kicker">Recruitment analysis</div>', unsafe_allow_html=True)
         st.markdown(f"# {APP_NAME}")
         pwd = st.text_input("Password", type="password", key="pwd_input")
         if pwd:

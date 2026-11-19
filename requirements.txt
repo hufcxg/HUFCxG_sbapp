@@ -8,3 +8,5 @@ requests
 pillow
 openpyxl
 vl-convert-python
+pyarrow
+duckdb
